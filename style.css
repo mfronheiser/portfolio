@@ -1,0 +1,29 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #001a33 ;
+}
+
+header .container {
+
+    width: 100%;
+
+}
+
+#name{
+    color: #948f8b;
+    font-weight: 700px;
+}
+
+.icon{
+    color: #948f8b;
+    cursor: pointer;
+    display: flex;
+}
+
+.icon:hover{
+    color: red;
+}
+
+.icon .item{
+    align-items: center;
+}
