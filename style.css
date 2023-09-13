@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #001a33 ;
+    background-color: black;
+    color: #948f8b;
 }
 
 header .container {
@@ -9,21 +14,60 @@ header .container {
 
 }
 
+.nav {
+    display: flex;
+    list-style: none;
+    text-align: end;
+    justify-content: space-around;
+    margin-left: 30%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
 #name{
     color: #948f8b;
-    font-weight: 700px;
+    /* font-weight: 700px; */
+    margin-left: 20px;
+    font-size: 60px;
 }
 
-.icon{
-    color: #948f8b;
-    cursor: pointer;
+.about-container{
     display: flex;
+    justify-content:left;
+    margin: 0px 20px 0px 20px;
 }
 
-.icon:hover{
-    color: red;
+#headshot {
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    margin-right: 20px;
 }
 
-.icon .item{
-    align-items: center;
+.skills {
+    display: flex;
+    justify-content: space-around; 
+       
+}
+
+.skills .fa-brands {
+    color:#5c4737;
+    justify-content: space-around;
+}
+
+.fa-brands{
+
+}
+
+footer {
+    background-color: red;
+    height: 300px;
+}
+
+.hobbies {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50%;
 }
